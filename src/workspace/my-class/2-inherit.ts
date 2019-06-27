@@ -1,5 +1,6 @@
 // “基类”、“父类”或“超类”。
 class Animal {
+    // constructor(){}
     move(distanceInMeters: number = 0) {
         console.log(`Animal moved ${distanceInMeters}m.`);
     }
@@ -32,9 +33,10 @@ class Animal2 {
     }
 }
 class Snake extends Animal2 {
-    // constructor(name: string) { 
-    //     super(name); 
-    // }
+    constructor(name: string) { 
+        super(name); 
+
+    }
     move(distanceInMeters = 5) {
         console.log("Slithering...");
         super.move(distanceInMeters);

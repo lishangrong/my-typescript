@@ -25,6 +25,11 @@ class Greeter {
     }
 }
 // 使用 new构造了 Greeter类的一个实例。 它会调用之前定义的构造函数，创建一个 Greeter类型的新对象，并执行构造函数初始化它。
-let greeter = new Greeter('typescript');
+let greeter = new Greeter('ts');
 console.log(greeter.greeting);
 console.log(greeter.geet());
+
+//  tsc 1-base.ts
+//  node 1-base.js
+
+

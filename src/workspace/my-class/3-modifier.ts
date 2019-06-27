@@ -103,7 +103,7 @@ dad.name = "Man with the 3-piece suit"; // 错误! name 是只读的.
 /**
  * 参数属性
  * 参数属性可以方便地让我们在一个地方定义并初始化一个成员
- * 
+ * 不建议使用，参数过多时不够易读性，
  */
 
 class Octopus1 {

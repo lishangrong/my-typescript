@@ -26,7 +26,7 @@ abstract class Department {
         console.log('Department name: ' + this.name);
     }
 
-    public abstract printMeeting(): void; // 必须在派生类中实现
+    abstract printMeeting(): void; // 必须在派生类中实现
 }
 
 /**
